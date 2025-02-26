@@ -25,9 +25,24 @@ const mensagensDeErro = {
     nome: {
         valueMissing: 'O campo de nome não pode estar vazio.'
     },
+    estoque: {
+        valueMissing: 'O campo de estoque não pode estar vazio.'
+    },
+    instagram: {
+        valueMissing: 'O campo de instagram não pode estar vazio.'
+    },
     email: {
         valueMissing: 'O campo de email não pode estar vazio.',
         typeMismatch: 'O email digitado não é válido.'
+    },
+    telefone: {
+        valueMissing: 'O campos de telefone não pode estar vazio',
+        customError: 'O numero digitado é inválido',
+        patternMismatch: 'Esse campos aceita apenas numeros'
+    },
+    instagram: {
+        valueMissing: 'O campos de instagram não pode estar vazio',
+        typeMismatch: 'O instagram digitado não é válido.'
     },
     senha: {
         valueMissing: 'O campo de senha não pode estar vazio.',
